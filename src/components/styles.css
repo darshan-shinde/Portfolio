@@ -73,6 +73,8 @@
     color: var(--text-color);
 }
 .hello-img{
+    width: 100%;
+    height: auto;
     margin-top: 10px;
     max-height: 250px;
 }
@@ -159,9 +161,7 @@ strong, .with{
     border-color: var(--name);
     background-color: transparent;
 }
-.hello-img{
-    perspective: 1000px;
-}
+
 
 .flip-card {
     background-color: transparent;
