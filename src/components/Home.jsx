@@ -11,8 +11,8 @@ const Home = ({darkMode}) => {
         <div>
             <AttentionSeeker shakeX>
             <Row>
-                    <Col lg={12} xs={12}>
-                <h3 className="display-3 hello" align="center">Hi! I'm <code>Darshan Shinde</code>  </h3>
+                <Col lg={12} xs={12}>
+                <h4 className="display-3 hello" align="center">Hi! I'm <code>Darshan Shinde</code></h4>
                 {/* <h1 align="center"></h1> */}
                 <br></br>
                 <h2 className="lead" align="center">I

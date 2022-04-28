@@ -80,6 +80,7 @@
 }
 .display-3{
     color: var(--hello);
+    font-size:60px;
 }
 
 .lead{
@@ -90,7 +91,7 @@
 code{
     font-family: Helvetica, Arial, sans-serif;
     color: var(--name);
-    font-size:90px;
+    font-size:80px;
 }
 .hello{
     margin-top: 80px;
@@ -165,7 +166,7 @@ strong, .with{
 
 .flip-card {
     background-color: transparent;
-    width: 300px;
+    width: 400px;
     height: 300px;
     perspective: 1000px;
     color: var(--text-color);
