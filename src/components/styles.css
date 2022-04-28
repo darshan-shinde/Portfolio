@@ -7,7 +7,7 @@
     --hello: white;
     --description:#F9C5D5;
     --name: #F9C5D5;
-    --border-width: 1px;
+    --border-width: 1px solid #F9C5D5;
 }
 
 [data-theme="dark"] {
@@ -18,7 +18,7 @@
     --description: #eae7dc;
     --hello: #ffffff;
     --name: #c3073f;
-    --border-width: 2px;
+    --border-width: 1px solid  #c3073f;
 }
 
 .App{
@@ -61,9 +61,13 @@
 .dark{
     color: var(--name);
     size: 40px;
-    border-color:white;
+    border-color:var(--border-width);
+    /* background-color:var(--name) */
 }
-
+.dl{
+    border:var(--border-width);
+    outline:none;
+}
 .navbar{
     background-image: var(--background-image);
     color: var(--text-color);
