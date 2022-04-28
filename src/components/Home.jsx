@@ -29,7 +29,7 @@ const Home = ({darkMode}) => {
                 <Row>
                     <Container align="center">
                     <Col lg={12} xs={12}>
-                  <img src={darkMode? helloDark : helloLight} alt="hello" className="hello-img"/>
+                  <img align="center" src={darkMode? helloDark : helloLight} alt="hello" className="hello-img"/>
                 </Col>
                 </Container>
                 </Row>
