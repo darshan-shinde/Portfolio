@@ -5,10 +5,10 @@ const Footer = () => {
         <div>
             <br></br>
             <hr></hr>
-            <p className="footer-text">Made with ♥️ by Avinash K<br></br>
+            <p className="footer-text">Made with ♥️ by Darshan<br></br>
             <br></br>
-            <small>All rights reserved © 2022 Avinash K</small><br></br>
-            <small>Illustrations by undraw.co</small>
+            <small>All rights reserved © 2022 Darshan Shinde</small><br></br>
+            {/* <small>Illustrations by undraw.co</small> */}
             </p>
         </div>
     )

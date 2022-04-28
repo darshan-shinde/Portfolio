@@ -1,18 +1,20 @@
-
 :root{
-    --bg-color: #eae7dc;
-    --text-color: #000000;
-    --page-color: #eae7dc;
-    --hello: #8e8d8a;
-    --description: #e85a4f;
-    --name: #e98074;
+    --bg-color: white;
+    --text-color: white;
+    /* --page-color:linear-gradient(right,#164A41,#4D774E,#9DC88D); */
+    /* --background-image: linear-gradient(to right,#1f4037,#99f2c8); */
+    --background-image:linear-gradient(to right, #d3d3d3 0%, #57606f 0%);
+    --hello: white;
+    --description:#F9C5D5;
+    --name: #F9C5D5;
     --border-width: 1px;
 }
 
 [data-theme="dark"] {
     --bg-color: #1a1a1d;
     --text-color: #ffffff;
-    --page-color: #1a1a1f;
+    /* --page-color: #1a1a1f; */
+    --background-image: linear-gradient(to right,#1a1a1f,#1a1a1f);
     --description: #eae7dc;
     --hello: #ffffff;
     --name: #c3073f;
@@ -20,7 +22,8 @@
 }
 
 .App{
-    background-color: var(--page-color);
+    /* background-image: linear-gradient(to bottom right,#164A41,#4D774E,#9DC88D); */
+    background-image: var(--background-image);
     height: 100%;
     width: 100%;
     top: 0;
@@ -56,12 +59,13 @@
 }
 
 .dark{
-    color: #8e8d8a;
+    color: var(--name);
     size: 40px;
+    border-color:white;
 }
 
 .navbar{
-    background-color: var(--bg-color);
+    background-image: var(--background-image);
     color: var(--text-color);
     padding: 15px;
 }
@@ -71,22 +75,20 @@
 .hello-img{
     margin-top: 10px;
     max-height: 250px;
-    height: 300px;
-    width: 400px;
-    /* border-radius: 50%; */
 }
 .display-3{
     color: var(--hello);
 }
 
 .lead{
-    color: var(--description);
+    color: var(--hello);
     font-size: xx-large;
     font-weight: 300;
 }
 code{
     font-family: Helvetica, Arial, sans-serif;
     color: var(--name);
+    font-size:90px;
 }
 .hello{
     margin-top: 80px;
@@ -97,6 +99,9 @@ code{
     padding: 10px;
     border: none;
 }
+.nbcard>button{
+    color:white;
+}
 .a{
     padding-left: 18px;
     padding-right: 10px;
@@ -106,10 +111,8 @@ code{
 }
 .connect-img{
     padding-bottom: 9px;
-    margin-top: 15px;
-    margin-left: 100px;
-    height: 300px;
-    width: 400px;
+    padding-top:10px;
+    padding-left:40px;
 }
 strong, .with{
     color: var(--name);
@@ -118,7 +121,9 @@ strong, .with{
     margin-top: 15px;
 }
 .skills-img{
-    height: 300px;
+    margin-left: 15px;
+    margin-top: 80px;
+    height: 150px;
     width: auto;
 }
 .skills-btn{
@@ -127,14 +132,15 @@ strong, .with{
     padding: 10px 16px;
     border-radius: 35px;
     border-width: var(--border-width);
+    border-color: var(--name) ;
+    color: var(--name);
 }
-.skills-btn{
-    color: #8e8d8a;
-}
+
 .skill-txt{
     font-weight: bold;
     font-size: 30px;
     vertical-align: middle;
+    color:var(--name);
 }
 .skill-nbcard{
     color: #ffffff;
@@ -156,7 +162,7 @@ strong, .with{
 
 .flip-card {
     background-color: transparent;
-    width: 300px;
+    width: 400px;
     height: 300px;
     perspective: 1000px;
     color: var(--text-color);
@@ -185,12 +191,15 @@ strong, .with{
 
 .sbtn{
     margin-top: 20px;
+    border-color:var(--name);
+    margin:10px;
+    color:white;
 }
 
 .ph{
     background-color: transparent;
     border-width: 1px;
-    border-color: var(--text-color);
+    border-color: var(--name);
     color: var(--hello);
 }
 
@@ -207,20 +216,16 @@ strong, .with{
     color: var(--text-color);
     margin-top: 100px;
 }
-
-.profilepic-light{
-    margin-top: 30px;
-    height: 250px;
-    width: 200px;
-    border-radius: 50%;
-    padding: 10px;
-    background-color: rgb(233,128,116);
+.a{
+    border-color: var(--name);
+    color:white;
+    margin:10px;
 }
-.profilepic-dark{
-    margin-top: 30px;
-    height: 250px;
-    width: 200px;
-    border-radius: 50%;
-    padding: 10px;
-    background-color: rgb(157,11,55);
+.a:hover{
+    background-color:#5cbdb9;
+    color:white;
+}
+.sbtn:hover{
+    background-color:#5cbdb9;
+    color:white;
 }
