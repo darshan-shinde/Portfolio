@@ -159,6 +159,9 @@ strong, .with{
     border-color: var(--name);
     background-color: transparent;
 }
+.hello-img{
+    perspective: 1000px;
+}
 
 .flip-card {
     background-color: transparent;
