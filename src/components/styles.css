@@ -3,7 +3,7 @@
     --text-color: white;
     /* --page-color:linear-gradient(right,#164A41,#4D774E,#9DC88D); */
     /* --background-image: linear-gradient(to right,#1f4037,#99f2c8); */
-    --background-image:linear-gradient(to right, #d3d3d3 0%, #57606f 0%);
+    --background-image:linear-gradient(to left,#1f2933 , #064c72);
     --hello: white;
     --description:#F9C5D5;
     --name: #F9C5D5;
@@ -14,7 +14,7 @@
     --bg-color: #1a1a1d;
     --text-color: #ffffff;
     /* --page-color: #1a1a1f; */
-    --background-image: linear-gradient(to right,#1a1a1f,#1a1a1f);
+    --background-image: linear-gradient(to right,#323f4b,#1a1a1f);
     --description: #eae7dc;
     --hello: #ffffff;
     --name: #c3073f;
