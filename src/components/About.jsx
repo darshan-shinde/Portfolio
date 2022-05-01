@@ -81,7 +81,7 @@ const About = ({darkMode}) => {
             <Fade>
               <Container align='center'>
                 <Row>
-                  <Col lg={8} align='center'>
+                  <Col lg={12} align='center'>
                     <Card className="nbcard">
                       <Card.Body>
                         <Card.Title><h2 className="lead">Let's have an introduction!</h2></Card.Title>
@@ -104,28 +104,7 @@ const About = ({darkMode}) => {
                       </Card.Body>
                     </Card>
                   </Col>
-                  <Col lg={4} align='center'>
-                    <Card className="nbcard">
-                      <Card.Body>
-                        <Card.Title><h2 className="lead">Let's Connect!</h2></Card.Title>
-                        <br></br>
-                        <a href="https://www.linkedin.com/in/shinde-darshan/" target="_blank" rel="noreferrer noopener">
-                          <Button variant={darkMode ? "outline-light" : "outline-dark"} className='a'>
-                            <FontAwesomeIcon className="dark" size="lg" icon={faLinkedin}/> Darshan Shinde
-                          </Button>
-                        </a>
-                        <a href="https://github.com/darshan-shinde" target="_blank" rel="noreferrer noopener">
-                          <Button variant={darkMode ? "outline-light" : "outline-dark"} className='a'>
-                            <FontAwesomeIcon className="dark" size="lg" icon={faGithub}/> Darshan-Shinde
-                          </Button>
-                        </a>
-                        <br></br>
-                        <br></br>
-                        <img src={ darkMode? ppdark : pplight} alt="connect" className="connect-img img-fluid animated"/>
-                        {/* */}
-                      </Card.Body>
-                    </Card>
-                  </Col>
+                 
                 </Row>
                 <br></br>
                 <hr></hr>
