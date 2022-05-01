@@ -60,17 +60,16 @@ const Contact = ({darkMode}) => {
                 <h2 className="lead">Contact me!</h2>
                 <p className="contact-text">Drop a suggestion, feedback, opportunities or we can colaborate on a project. Please mention your contact details if you are expecting a reply.</p>
                 <br></br>
-                        {/* <br></br> */}
-                {/* <a href="" target="_blank" rel="noreferrer noopener"> */}
+                       
                           <Button onClick={() => window.location = 'mailto:shindedarshan502@gmail.com'} variant={darkMode ? "outline-light" : "outline-dark"} className='a'>
                             <FontAwesomeIcon className="dark" size="lg" icon={faEnvelope}/> shindedarshan502@gmail.com
                           </Button>
-                        {/* </a> */}
+                       
                         <br></br>
                         <br></br>
                         <br></br>
                         <br></br>
-                <img src={darkMode? contactDark : contactLight} alt="contact" className="contact-img img-fluid"/>
+                <img align="center" src={darkMode? contactDark : contactLight} alt="contact" className="contact-img img-fluid"/>
                 </Col>
                 {/* <Col lg={4}>
                 <br></br>
