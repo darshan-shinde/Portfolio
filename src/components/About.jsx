@@ -1,8 +1,10 @@
 import React from 'react'
 import { Fade } from "react-awesome-reveal";
 import './styles.css';
-import connectLight from '../media/connect-light.svg';
-import connectDark from '../media/connect-dark.svg'; 
+// import connectLight from '../media/connect-light.svg';
+// import connectDark from '../media/connect-dark.svg'; 
+import pplight from '../media/pplight.png'
+import ppdark from '../media/ppdark.png'
 import resume from '../media/Resume_darshan.pdf';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
@@ -119,7 +121,8 @@ const About = ({darkMode}) => {
                         </a>
                         <br></br>
                         <br></br>
-                        <img src={darkMode? connectDark : connectLight} alt="connect" className="connect-img img-fluid animated"/>
+                        <img src={ darkMode? ppdark : pplight} alt="connect" className="connect-img img-fluid animated"/>
+                        {/* */}
                       </Card.Body>
                     </Card>
                   </Col>

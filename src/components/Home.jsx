@@ -10,6 +10,7 @@ const Home = ({darkMode}) => {
     return (
         <div>
             <AttentionSeeker shakeX>
+           
             <Row>
                 <Col lg={12} xs={12}>
                 <h4 className="display-3 hello" align="center">Hi! I'm <code>Darshan Shinde</code></h4>
