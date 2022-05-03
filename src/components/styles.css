@@ -4,6 +4,8 @@
     /* --page-color:linear-gradient(right,#164A41,#4D774E,#9DC88D); */
     /* --background-image: linear-gradient(to right,#1f4037,#99f2c8); */
     --background-image:linear-gradient(to left,#002f49 , #002f49);
+    /* --background-image: linear-gradient(-225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%); */
+    /* , #a2b6df 100%, #6b8cce 100%, #a2b6df 100% */
     --hello: white;
     --description:#F9C5D5;
     --name: #F9C5D5;

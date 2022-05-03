@@ -88,7 +88,7 @@ const Contact = ({darkMode}) => {
                 <Col lg={4} align='center'>
                     <Card className="nbcard">
                       <Card.Body>
-                        <Card.Title><h2 className="lead">Let's Connect!</h2></Card.Title>
+                        <Card.Title><h2 align='center' className="lead">Let's Connect!</h2></Card.Title>
                         {/* <br></br> */}
                         <a href="https://www.linkedin.com/in/shinde-darshan/" target="_blank" rel="noreferrer noopener">
                           <Button variant={darkMode ? "outline-light" : "outline-dark"} className='a'>
@@ -100,9 +100,9 @@ const Contact = ({darkMode}) => {
                             <FontAwesomeIcon className="dark" size="lg" icon={faGithub}/> Darshan-Shinde
                           </Button>
                         </a>
+                        {/* <br></br>
                         <br></br>
-                        <br></br>
-                        <img src={ darkMode? ppdark : pplight} alt="connect" className="connect-img img-fluid animated"/>
+                        <img src={ darkMode? ppdark : pplight} alt="connect" className="connect-img img-fluid animated"/> */}
                         {/* */}
                       </Card.Body>
                     </Card>
