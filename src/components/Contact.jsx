@@ -8,8 +8,8 @@ import Button from 'react-bootstrap/esm/Button'
 import Container from 'react-bootstrap/esm/Container'
 import Row from 'react-bootstrap/esm/Row'
 import Col from 'react-bootstrap/Col'
-import pplight from '../media/pplight.png'
-import ppdark from '../media/ppdark.png'
+// import pplight from '../media/pplight.png'
+// import ppdark from '../media/ppdark.png'
 // import resume from '../media/Resume_darshan.pdf';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';

@@ -4,7 +4,7 @@ import { Zoom, Fade } from 'react-awesome-reveal'
 // import scr from '../media/SCR.png'
 import gotg from '../media/SSENSE.png'
 // import rfp from '../media/RFP.png'
-// import ca from '../media/CA.png'
+import ca from '../media/bluefly.png'
 import tcd from '../media/BIGBASKET.png'
 import Container from 'react-bootstrap/esm/Container'
 import Button from 'react-bootstrap/esm/Button'
@@ -31,7 +31,45 @@ const Experience = ({darkMode}) => {
                 <br></br>
                 <Zoom>
                 <Row>
-                    <Col lg={6} sm={15} > 
+                <Col lg={4} sm={12}>
+                        <Card align="center" className="exp" data-theme={darkMode ? "dark" : "light"}>
+                        <br></br>
+                        <center>
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div className="flip-card-front">
+                                        <Card.Img variant="top" src={ca}/>
+                                        <Card.Body>
+                                            <Card.Title align="center">Bluefly Clone</Card.Title>
+                                            <Card.Text>
+                                                <p align="center">An online fashion retailer for style obsessed and designer style  products.</p>
+                                            </Card.Text>
+                                        </Card.Body>
+                                    </div>
+                                    <div className="flip-card-back">
+                                    <ul>
+                                            <li>A Collaborative TeamWork React Project</li>
+                                            <li>Area of Responsibility : Building Login, SignUp page, Navbar & Footer.</li>
+                                            <li>Tech Languages : React | Chakra UI</li>
+                                            <li>Duration : 1 Week</li>
+                                        </ul>
+                                    </div> 
+                                </div>
+                            </div>
+                        </center>
+                        <br></br>
+                        <div>
+                            <a href="http://bluefly-clone-frontend.vercel.app/" target="_blank" rel="noreferrer noopener">
+                                <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">View Project</Button>
+                            </a>
+                            <a href="https://github.com/Teju0910/bluefly-clone-frontend" target="_blank" rel="noreferrer noopener">
+                                <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">View Github Repo</Button>
+                            </a>
+                        </div>
+                        <br></br>
+                        </Card>
+                    </Col>
+                    <Col lg={4} sm={15} > 
                     {/*  */}
                         <Card align="center" className="exp" data-theme={darkMode ? "dark" : "light"}>
                         <br></br>
@@ -70,7 +108,7 @@ const Experience = ({darkMode}) => {
                         <br></br>
                         </Card>
                     </Col>
-                    <Col lg={6} sm={15}>
+                    <Col lg={4} sm={15}>
                         <Card align="center" className="exp" data-theme={darkMode ? "dark" : "light"}>
                         <br></br>
                         <center>
@@ -79,7 +117,7 @@ const Experience = ({darkMode}) => {
                                     <div className="flip-card-front">
                                         <Card.Img variant="top" src={gotg}/>
                                         <Card.Body>
-                                            <Card.Title align="center">SSENSE CLONE</Card.Title>
+                                            <Card.Title align="center">SSENSE Clone</Card.Title>
                                             <Card.Text>
                                                 <p align="center">An e-commerce website to Luxury shop for lifestyle items like clothes, footwear, accessories, etc.</p>
                                             </Card.Text>
@@ -123,42 +161,7 @@ const Experience = ({darkMode}) => {
                         <br></br>
                         </Card>
                     </Col>
-                    {/* <Col lg={4} sm={12}>
-                        <Card align="center" className="exp" data-theme={darkMode ? "dark" : "light"}>
-                        <br></br>
-                        <center>
-                            <div class="flip-card">
-                                <div class="flip-card-inner">
-                                    <div className="flip-card-front">
-                                        <Card.Img variant="top" src={ca}/>
-                                        <Card.Body>
-                                            <Card.Title align="center">CharitAble</Card.Title>
-                                            <Card.Text>
-                                                <p align="center">A Fundraising Web App where people can start a fundraiser for free</p>
-                                            </Card.Text>
-                                        </Card.Body>
-                                    </div>
-                                    <div className="flip-card-back">
-                                        <p>Developed a Fundraising Web App where people can start a fundraiser for free and also contribute to other ongoing fundraisers.
-                                        <br></br>This website can connect you to different Blood Banks as a Donor and Patient.
-                                        <br></br>Tech Stack - ReachJs, Bootstrap, Cloud Firestore
-                                        </p>
-                                    </div> 
-                                </div>
-                            </div>
-                        </center>
-                        <br></br>
-                        <div>
-                            <a href="https://charit-able.netlify.app/" target="_blank" rel="noreferrer noopener">
-                                <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">View Project</Button>
-                            </a>
-                            <a href="https://github.com/Tejaswi-Chaudhari/CharitAble" target="_blank" rel="noreferrer noopener">
-                                <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">View Github Repo</Button>
-                            </a>
-                        </div>
-                        <br></br>
-                        </Card>
-                    </Col> */}
+                   
                 </Row>
                 </Zoom>
                 <br></br>
