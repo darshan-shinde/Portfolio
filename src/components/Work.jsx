@@ -1,7 +1,7 @@
 import React from "react";
 import { Slide } from "react-awesome-reveal";
-import skillsLight from "../media/skills-light.svg";
-import skillsDark from "../media/skills-dark.svg";
+import skillsLight from "../media/work-light.svg";
+import skillsDark from "../media/work-dark.svg";
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/Col";
@@ -15,7 +15,7 @@ import {
   faReact,
 } from "@fortawesome/free-brands-svg-icons";
 
-const Skills = ({ darkMode }) => {
+const Work = ({ darkMode }) => {
   return (
     <div data-theme={darkMode ? "dark" : "light"}>
       <br></br>
@@ -24,7 +24,7 @@ const Skills = ({ darkMode }) => {
           <Row>
             <Col lg={4} xs={8}>
               <h1 className="display-3 skill-h">
-                I can work <p className="with">with</p>{" "}
+                Professional <p className="with">Experience</p>{" "}
               </h1>
               <img
                 src={darkMode ? skillsDark : skillsLight}
@@ -35,7 +35,7 @@ const Skills = ({ darkMode }) => {
             <Col lg={2} xs={4}>
               <br></br>
               <Card className="nbcard">
-                <Button
+                {/* <Button
                   variant={darkMode ? "outline-light" : "outline-dark"}
                   className="skills-btn"
                 >
@@ -71,18 +71,18 @@ const Skills = ({ darkMode }) => {
                   <p align="center" className="skill-txt">
                     JS
                   </p>
-                </Button>
+                </Button> */}
               </Card>
             </Col>
             <Col lg={6} xs={12}>
               <br></br>
               <Card className="skill-nbcard">
                 <Card.Body>
-                  <Card.Title>Programming Languages</Card.Title>
-                  <Card.Text>JavaScript</Card.Text>
+                  <Card.Title>Appzoy Technologies Pvt Ltd</Card.Title>
+                  <Card.Text>Frontend Developer</Card.Text>
                 </Card.Body>
               </Card>
-              <Card className="skill-nbcard">
+              {/* <Card className="skill-nbcard">
                 <Card.Body>
                   <Card.Title>Technologies</Card.Title>
                   <Card.Text>
@@ -91,7 +91,7 @@ const Skills = ({ darkMode }) => {
                     Algorithms
                   </Card.Text>
                 </Card.Body>
-              </Card>
+              </Card> */}
               {/* <Card className="skill-nbcard">
                         <Card.Body >
                             <Card.Title>Others</Card.Title>
@@ -108,4 +108,4 @@ const Skills = ({ darkMode }) => {
   );
 };
 
-export default Skills;
+export default Work;
